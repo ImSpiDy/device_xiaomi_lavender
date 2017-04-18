@@ -64,5 +64,5 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service
 
-# Inherit proprietary files
-$(call inherit-product-if-exists, vendor/xiaomi/lavender/lavender-vendor.mk)
+# Inherit the proprietary files
+$(call inherit-product, vendor/xiaomi/lavender/lavender-vendor.mk)
