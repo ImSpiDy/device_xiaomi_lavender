@@ -40,6 +40,10 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     init.device.rc
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Shims
 PRODUCT_PACKAGES += \
     libcamera_sdm660_shim
