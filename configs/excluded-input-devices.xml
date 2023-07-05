@@ -29,4 +29,5 @@
     <device name="STM VL53L0 proximity sensor" />
     <device name="qti-haptics"/>
     <device name="qcom-hv-haptics"/>
+    <device name="uinput_nav"/>
 </devices>
