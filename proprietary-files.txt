@@ -11,6 +11,16 @@ vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp
 vendor/etc/acdbdata/adsp_avs_config.acdb
 
+# Audio Amplifier
+vendor/lib/rfsa/adsp/dirac_resource.dar
+vendor/lib/rfsa/adsp/libdirac-capiv2.so
+vendor/lib/rfsa/adsp/nuance.scd
+
+# Audio firmware
+vendor/firmware/dbmd4_va_fw.bin
+vendor/firmware/tfa98xx.cnt
+vendor/firmware/voice_amodel.bin
+
 # Camera - from lavender V10.3.6.0.PFGMIXM
 vendor/lib/hw/camera.sdm660.so|50e671432994ec9085810e5fa9c9c6619262bc19
 vendor/lib/libFaceGrade.so|ab36b265668f77a613719e1b8cedf0b1a0219fa5
