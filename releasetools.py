@@ -28,4 +28,5 @@ def FullOTA_InstallBegin(info):
 
 def OTA_InstallEnd(info):
   info.script.Print("Patching device-tree and verity images...")
+  AddImage(info, "IMAGES", "dtbo.img", "/dev/block/bootdevice/by-name/dtbo")
   AddImage(info, "IMAGES", "vbmeta.img", "/dev/block/bootdevice/by-name/vbmeta")
