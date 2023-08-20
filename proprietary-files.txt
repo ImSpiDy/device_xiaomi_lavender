@@ -1044,6 +1044,3 @@ vendor/etc/thermal-engine.conf
 -vendor/lib64/libthermalclient.so
 vendor/lib64/libthermalfeature.so
 vendor/lib64/libthermalioctl.so
-
-# Wifi
-vendor/bin/cnss-daemon
