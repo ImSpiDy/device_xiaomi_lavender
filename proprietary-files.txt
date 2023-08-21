@@ -990,11 +990,11 @@ vendor/lib64/libgoodixhwfingerprint.so
 vendor/lib64/libvendor.goodix.hardware.interfaces.biometrics.fingerprint@2.1.so
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 
-# Gatekeeper
-vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
-vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
-vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so
-vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
+# Gatekeeper QTI - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
+vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|634b7bb3cffcfea34c7be72e4d8e5c902bda5036
+vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc|1b8d5f58fe0a57906acf72b862c16a2521daa97b
+vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so|23c1c647a6bd2b91a97ea48a0e13b273e9d57e45
+vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so|de215e0422b21ba5f21a9aeeaff5fc0b5869be2e
 
 # Graphics firmware
 vendor/firmware/a512_zap.b00
@@ -1012,11 +1012,11 @@ vendor/firmware/a530v3_gpmu.fw2
 vendor/firmware/a530v3_seq.fw2
 vendor/firmware/a540_gpmu.fw2
 
-# Keymaster QTI
-vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
-vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc
-vendor/lib/libqtikeymaster4.so
-vendor/lib64/libqtikeymaster4.so
+# Keymaster QTI - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
+vendor/bin/hw/android.hardware.keymaster@4.0-service-qti|53df18bdec6e2641368407c1ef5aa99899d7a23f
+vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc|c8999fb1bccbef81e6b362059e9a6ebd023de98f
+vendor/lib/libqtikeymaster4.so|4083c9a24e5a6379efadbf73bd43778c17442a4b
+vendor/lib64/libqtikeymaster4.so|0df7c63aa868c62956a03bce096bb5bfee0c811e
 
 # Sensors
 vendor/etc/sensors/hals.conf|2be83209bb5319b4a3c75338c24852f89ddc1df7
