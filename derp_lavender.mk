@@ -8,22 +8,23 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common LineageOS stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common DerpFestOS stuff
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Boot Animation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
+USE_LEGACY_BOOTANIMATION := true
 
 # Quick Tap
 TARGET_SUPPORTS_QUICK_TAP := false
 
+PRODUCT_NAME := derp_lavender
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := lavender
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := lineage_lavender
 PRODUCT_MODEL := Redmi Note 7
 TARGET_USES_AOSP_RECOVERY := true
 TARGET_GAPPS_ARCH := arm64
