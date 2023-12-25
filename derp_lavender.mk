@@ -18,9 +18,6 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 USE_LEGACY_BOOTANIMATION := true
 
-# Quick Tap
-TARGET_SUPPORTS_QUICK_TAP := false
-
 PRODUCT_NAME := derp_lavender
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := lavender
