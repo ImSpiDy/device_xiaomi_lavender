@@ -8,17 +8,16 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common DerpFestOS stuff
-$(call inherit-product, vendor/voltage/config/common_full_phone.mk)
+# Inherit some common LineageOS stuff
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Boot Animation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
-#USE_LEGACY_BOOTANIMATION := true
 
-PRODUCT_NAME := voltage_lavender
+PRODUCT_NAME := lineage_lavender
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := lavender
 PRODUCT_MANUFACTURER := Xiaomi
@@ -27,6 +26,13 @@ TARGET_USES_AOSP_RECOVERY := true
 TARGET_GAPPS_ARCH := arm64
 TARGET_SUPPORTS_QUICK_TAP := true
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+PRODUCT_SYSTEM_PROPERTIES += \
+	persist.sys.pixelprops.gphotos=true \
+	persist.sys.pixelprops.streaming=true \
+	persist.sys.pixelprops.gapps=true \
+	persist.sys.pixelprops.gms=true \
+	persist.sys.pixelprops.games=true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="lavender-user 10 QKQ1.190910.002 V12.5.3.0.QFGMIXM release-keys"
