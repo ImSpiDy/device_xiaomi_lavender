@@ -1013,10 +1013,10 @@ vendor/firmware/a530v3_seq.fw2
 vendor/firmware/a540_gpmu.fw2
 
 # Keymaster QTI - from Honeywell/hon660/hon660:12/94.00.03/0037:user/release-keys
-vendor/bin/hw/android.hardware.keymaster@4.0-service-qti|53df18bdec6e2641368407c1ef5aa99899d7a23f
-vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc|c8999fb1bccbef81e6b362059e9a6ebd023de98f
-vendor/lib/libqtikeymaster4.so|4083c9a24e5a6379efadbf73bd43778c17442a4b
-vendor/lib64/libqtikeymaster4.so|0df7c63aa868c62956a03bce096bb5bfee0c811e
+vendor/bin/hw/android.hardware.keymaster@4.0-service-qti|ad5f83c00616392d33ead371500ec0fb142eea73
+vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc|761074e3849e82b06148a4a9808268e588351ea8
+vendor/lib/libqtikeymaster4.so|b3d02e6f169de946025964295d704afc64b89717
+vendor/lib64/libqtikeymaster4.so|a49dd158783b79edaaeb7de7dfe4a1ff3f8ad118
 
 # Sensors
 vendor/etc/sensors/hals.conf|2be83209bb5319b4a3c75338c24852f89ddc1df7
