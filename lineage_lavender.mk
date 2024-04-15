@@ -28,6 +28,10 @@ TARGET_SUPPORTS_QUICK_TAP := true
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_SYSTEM_PROPERTIES += \
+	ro.adb.secure=0 \
+        ro.debuggable=1 \
+	ro.force.debuggable=1 \
+        persist.sys.usb.config=adb \
 	persist.sys.pixelprops.gphotos=true \
 	persist.sys.pixelprops.streaming=true \
 	persist.sys.pixelprops.gapps=true \
