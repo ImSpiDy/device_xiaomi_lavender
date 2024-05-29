@@ -1,25 +1,23 @@
-# Device proprietary files - from lavender-user 10 QKQ1.190910.002 V12.5.3.0.QFGCNXM release-keys
+# Audio ACDB - from lavender V12.5.3.0.QFGCNXM
+vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb|57837ee3c6d7072ee1a919e592fab0d0e016eaed
+vendor/etc/acdbdata/MTP/MTP_General_cal.acdb|ec2636696cb39ef5eeba2d1b5196d017cd949dba
+vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb|0b3b101c8c48e1c5d463fba629dc597624859f93
+vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb|bdb58c3a10e018f7fd439b111825e56300f5e9cc
+vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb|e2072f38c4a1860d74cb788dd52874c9473fc717
+vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb|cf7dbd5ccb31fa8ff87741f832e6f1c58c84b2ed
+vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb|d4c98a463c0a7b147d08876b8347c514e881be29
+vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp|47d93e857c275f9cfa0fc463fbce952016444e17
+vendor/etc/acdbdata/adsp_avs_config.acdb|d9507f31b8970320233128fed24c39742ee53c67
 
-# Audio ACDB
-vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_General_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp
-vendor/etc/acdbdata/adsp_avs_config.acdb
+# Audio Amplifier - from lavender V12.5.3.0.QFGCNXM
+vendor/lib/rfsa/adsp/dirac_resource.dar|7728d5b2ee2927a01df5bd6d7edae3736186c844
+vendor/lib/rfsa/adsp/libdirac-capiv2.so|e56031dfaee094d5267e3cc16625cfceaa07cc27
+vendor/lib/rfsa/adsp/nuance.scd|d17ee46b7d136510360389baa8f365cd7669b5dd
 
-# Audio Amplifier
-vendor/lib/rfsa/adsp/dirac_resource.dar
-vendor/lib/rfsa/adsp/libdirac-capiv2.so
-vendor/lib/rfsa/adsp/nuance.scd
-
-# Audio firmware
-vendor/firmware/dbmd4_va_fw.bin
-vendor/firmware/tfa98xx.cnt
-vendor/firmware/voice_amodel.bin
+# Audio firmware - from lavender V12.5.3.0.QFGCNXM
+vendor/firmware/dbmd4_va_fw.bin|ee640f9f4e367d513f5fb7d95c85e226c9f75750
+vendor/firmware/tfa98xx.cnt|f8b5291feaebe7e3d18fda5d8960c313656b4a3a
+vendor/firmware/voice_amodel.bin|f0485f84718886ebcba6f2be0eb92f18240b5115
 
 # Camera - from lavender V10.3.6.0.PFGMIXM
 vendor/lib/hw/camera.sdm660.so|50e671432994ec9085810e5fa9c9c6619262bc19
@@ -810,8 +808,8 @@ vendor/etc/camera/lavender_ov13855_sunny_india_ii_chromatix.xml|469efe79726d46fb
 vendor/etc/camera/lavender_s5k5e8_ofilm_cn_i_chromatix.xml|9610739fc44de217b3d8c06af84bd3f7fbb518cd
 vendor/etc/camera/lavender_s5k5e8_sunny_cn_ii_chromatix.xml|a0ae97645fbf034963331dbaa44cead098e2993a
 vendor/etc/camera/lavender_s5kgm1_ofilm_india_i_chromatix.xml|601695796b9fa2998c06e3fb2ad4dca7fe86d899
-vendor/etc/camera/lavender_s5kgm1_ofilm_i_chromatix.xml|d632c74aef087bacd743bb93cad61f567ec34969
-vendor/etc/camera/lavender_s5kgm1_sunny_ii_chromatix.xml|94f8ec61369f60d78dc57df17a660bb82ce24408
+vendor/etc/camera/lavender_s5kgm1_ofilm_i_chromatix.xml|757ed6765dfd3f7136ba781a28683e43c658f3c7
+vendor/etc/camera/lavender_s5kgm1_sunny_ii_chromatix.xml|f4bc885bb3a3f2acb526339990770ec06924dcd7
 vendor/etc/camera/lavender_s5kgm1_sunny_india_ii_chromatix.xml|6aff2017f91bd00e96a7363b8178cab51fcac0f5
 vendor/etc/camera/lf_facerank_model.bin|457f91e4027b7faef4d0fa889853e4f692e910c9
 vendor/etc/camera/megviifacepp_model|1f0cdc706d3853114ecf7a2c0c7436238fcdf258
@@ -935,8 +933,8 @@ vendor/lib/libmmcamera_lavender_s5k5e8_sunny_ii.so|aff40ff2c0c91017cc276ae43835a
 vendor/lib/libmmcamera_lavender_s5k5e8_sunny_ii_eeprom.so|bc0190d2867e0a4463cd53f4162763a755d1bf76
 vendor/lib/libmmcamera_lavender_s5kgm1sp_ofilm_i_eeprom.so|757364687b5648a7e750f997e500d5c1c1af27c0
 vendor/lib/libmmcamera_lavender_s5kgm1sp_sunny_ii_eeprom.so|aa910fbcc9d324face41d702d7e416daac4a0686
-vendor/lib/libmmcamera_lavender_s5kgm1_ofilm_i.so|4876b93d80446e98749b35030ddf9226d239cfbd
-vendor/lib/libmmcamera_lavender_s5kgm1_sunny_ii.so|f165dbcb497d7fc2c4cba62fad25074babfda048
+vendor/lib/libmmcamera_lavender_s5kgm1_ofilm_i.so|9a939f0f1d14c62d9a8e0c8bc9535d515afdd83b
+vendor/lib/libmmcamera_lavender_s5kgm1_sunny_ii.so|beebd7f81e4b1fea9f92816e5204e0743a168d7a
 vendor/lib/libmmcamera_le2464c_eeprom.so|9888bc5dc441e83aee99111c4413db47312e6c8d
 vendor/lib/libmmcamera_le2464c_master_eeprom.so|89a380e50c247da8ed11941cb0af826ac10164dd
 vendor/lib/libmmcamera_mg_facepp_lib.so|28e468e442f1900496f437e5282d6b03add9c642
@@ -955,105 +953,105 @@ vendor/lib/libmmcamera_tintless_bg_pca_algo.so|8d0742522e0af649ee05fb85fa1a204ac
 vendor/lib/libmmcamera_tuning.so|28364a5125194034584cb44e053272a9d70fa5b5
 vendor/lib/libmmcamera_tuning_lookup.so|e00c7abb7b72ceff77fbd73d7b38f3fa8fdb31ca
 
-# Consumerir
-vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.sdm660.so
+# Consumerir - from lavender V12.5.3.0.QFGCNXM
+vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.sdm660.so|d1f275a91557dfab52e82906986c5094fe078722
 
-# Display
-vendor/etc/qdcm_calib_data_boe_td4320_fhdplus_video_mode_dsi_panel.xml
-vendor/etc/qdcm_calib_data_shenchao_nt36672a_fhdplus_video_mode_dsi_panel.xml
-vendor/etc/qdcm_calib_data_tianma_nt36672a_fhdplus_video_mode_dsi_panel.xml
+# Display - from lavender V12.5.3.0.QFGCNXM
+vendor/etc/qdcm_calib_data_boe_td4320_fhdplus_video_mode_dsi_panel.xml|5e66aab8310da2d8a3672fc07c02a670700061d5
+vendor/etc/qdcm_calib_data_shenchao_nt36672a_fhdplus_video_mode_dsi_panel.xml|e8f35fe34996259d5b885fb6d0b1bba0771a1550
+vendor/etc/qdcm_calib_data_tianma_nt36672a_fhdplus_video_mode_dsi_panel.xml|e7de780e2c9889bf60fe16ad6a6f47b68aa64304
 
-# Fingerprint firmware
-vendor/firmware/goodixfp.b00
-vendor/firmware/goodixfp.b01
-vendor/firmware/goodixfp.b02
-vendor/firmware/goodixfp.b03
-vendor/firmware/goodixfp.b04
-vendor/firmware/goodixfp.b05
-vendor/firmware/goodixfp.b06
-vendor/firmware/goodixfp.b07
-vendor/firmware/goodixfp.mdt
-vendor/firmware/fpctzappfingerprint.b00
-vendor/firmware/fpctzappfingerprint.b01
-vendor/firmware/fpctzappfingerprint.b02
-vendor/firmware/fpctzappfingerprint.b03
-vendor/firmware/fpctzappfingerprint.b04
-vendor/firmware/fpctzappfingerprint.b05
-vendor/firmware/fpctzappfingerprint.b06
-vendor/firmware/fpctzappfingerprint.b07
-vendor/firmware/fpctzappfingerprint.mdt
+# Fingerprint firmware - from lavender V12.5.3.0.QFGCNXM
+vendor/firmware/goodixfp.b00|c5c3594b47dffb3aadb81abced42518d24637893
+vendor/firmware/goodixfp.b01|35e6cc6108ee5f111741ef5d9f0b8e2ae1dfd63f
+vendor/firmware/goodixfp.b02|ae3a00bbd74309450344a86e94f28b12af0a7c09
+vendor/firmware/goodixfp.b03|04945a4a182c6f0fd4c6b5460c6c0437602740cd
+vendor/firmware/goodixfp.b04|70f44536261bca100c3d410300e290f1e426d66e
+vendor/firmware/goodixfp.b05|c179174508af81ad78b62d4a890abdba84d8c6f5
+vendor/firmware/goodixfp.b06|c179174508af81ad78b62d4a890abdba84d8c6f5
+vendor/firmware/goodixfp.b07|4983a219580ebdb1e2d0f8e914c3e1f28a1471a0
+vendor/firmware/goodixfp.mdt|e525ffa879859bc8707529d251438a017a67777f
+vendor/firmware/fpctzappfingerprint.b00|7ddcb716f2537eabfd7dc741db41f313e602b783
+vendor/firmware/fpctzappfingerprint.b01|49829cd98d8585726800417635ef93638963c1a7
+vendor/firmware/fpctzappfingerprint.b02|fe14d0c23fd5ce28552cc288d7d351cb454ddcad
+vendor/firmware/fpctzappfingerprint.b03|f6de743222e1d850798cc7eece48b74463bf5ff4
+vendor/firmware/fpctzappfingerprint.b04|4c4b8a49b6e73d754c1c18a4b8533e0251d8b34e
+vendor/firmware/fpctzappfingerprint.b05|8b2ba9380050139fcb54d45c1978e54c080e6e2c
+vendor/firmware/fpctzappfingerprint.b06|8b2ba9380050139fcb54d45c1978e54c080e6e2c
+vendor/firmware/fpctzappfingerprint.b07|cb22bc47816a9c456fda2fdbd24486ea925fda42
+vendor/firmware/fpctzappfingerprint.mdt|f709249da0d08cdcf43f561782ac3d6695a154ec
 
-# Fingerprint sensor
-vendor/bin/qfp-daemon
-vendor/lib/vendor.qti.hardware.fingerprint@1.0.so
-vendor/lib64/hw/fingerprint.fpc.default.so
-vendor/lib64/hw/fingerprint.goodix.default.so
-vendor/lib64/com.fingerprints.extension@2.0.so
-vendor/lib64/libgf_ca.so
-vendor/lib64/libgf_hal.so
-vendor/lib64/libqfp-service.so
-vendor/lib64/libvendor.goodix.hardware.interfaces.biometrics.fingerprint@2.1.so
-vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
-vendor/lib64/libgoodixhwfingerprint.so
+# Fingerprint sensor - from lavender V12.5.3.0.QFGCNXM
+vendor/bin/qfp-daemon|12b425b21db9ee00499ee7600987d3979f406f83
+vendor/lib/vendor.qti.hardware.fingerprint@1.0.so|b953f19ff4ce4764b6b236a682af7c6db2425d86
+vendor/lib64/hw/fingerprint.fpc.default.so|cd0f115eef17a2f0e6e385257dd05de423f4ae34
+vendor/lib64/hw/fingerprint.goodix.default.so|ee9562c8c2fea3831fd2cb00b824e5bd12b0539d
+vendor/lib64/com.fingerprints.extension@2.0.so|c339fab8bca1d15411ac55877bf759d9568b92c9
+vendor/lib64/libgf_ca.so|38e383c2b004ddd88b038b4c2263f4b842007830
+vendor/lib64/libgf_hal.so|56e3eb920f9d90df01345ec0a93413b905c2b1b7
+vendor/lib64/libqfp-service.so|ab75d5e58bf5fe689f96b794cd7ca6f9f44e3341
+vendor/lib64/libvendor.goodix.hardware.interfaces.biometrics.fingerprint@2.1.so|47babf9634793366f4f3439ec4dfe601390990a5
+vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so|0b84054262e01300e72796ee26ed6f9e00bce9b7
+vendor/lib64/libgoodixhwfingerprint.so|f51d93cd8985a0d4a1d902b287aa5cebe0319aee
 
-# Gatekeeper
-vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
-vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so
-vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
-vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
+# Gatekeeper - from lavender V12.5.3.0.QFGCNXM
+vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|a189a50515831e6ac9a7e88a165ac979ae6ac077
+vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so|2edd1bfb811307ea81c46bb3dd7cb5af46fc8c42
+vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so|eaf70216b4e53f409c22764b272b79cd60a4b714
+vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc|1b8d5f58fe0a57906acf72b862c16a2521daa97b
 
-# Graphics firmware
-vendor/firmware/a512_zap.b00
-vendor/firmware/a512_zap.b01
-vendor/firmware/a512_zap.b02
-vendor/firmware/a512_zap.elf
-vendor/firmware/a512_zap.mdt
-vendor/firmware/a530_gpmu.fw2
-vendor/firmware/a530_pfp.fw
-vendor/firmware/a530_pm4.fw
-vendor/firmware/a530v1_pfp.fw
-vendor/firmware/a530v1_pm4.fw
-vendor/firmware/a530v2_seq.fw2
-vendor/firmware/a530v3_gpmu.fw2
-vendor/firmware/a530v3_seq.fw2
-vendor/firmware/a540_gpmu.fw2
+# Graphics firmware - from lavender V12.5.3.0.QFGCNXM
+vendor/firmware/a512_zap.b00|85a7fc0008f9a2071d8b3d0cc212b19141633267
+vendor/firmware/a512_zap.b01|e0b7818182fac232182bfb70a4f43ec3e36779b9
+vendor/firmware/a512_zap.b02|33cc074ca840ae59f310a0e217aa7409afb30ac2
+vendor/firmware/a512_zap.elf|5dd4278559e9276f641bb121d7577d1a3ca3fcbb
+vendor/firmware/a512_zap.mdt|cc149dda6e109dd3f1f92e74349665a8c521ff79
+vendor/firmware/a530_gpmu.fw2|706da8d5ee565dcf456341f805ee75a40773f65a
+vendor/firmware/a530_pfp.fw|d027c70fde64241ec13160d09ee1b6c272974a4b
+vendor/firmware/a530_pm4.fw|b1cf625b5552b99839687f479c124ac5daca2ca2
+vendor/firmware/a530v1_pfp.fw|0864291b99bed712edfcffa94be7b4595d3af306
+vendor/firmware/a530v1_pm4.fw|6a82a4fb4035fa2a933c1a26b5535d7ec7c0ac4c
+vendor/firmware/a530v2_seq.fw2|63b6d25594a5c1f4217d996a2b636e17a29fc840
+vendor/firmware/a530v3_gpmu.fw2|0a2f6f450231673d75ba39e5d28776db3becf810
+vendor/firmware/a530v3_seq.fw2|8963a53acc689725dee4b22881a4dd4b80e5def8
+vendor/firmware/a540_gpmu.fw2|3530f10b4825a3b08c79e0bcfaf6471ec8422f24
 
-# Keymaster QTI
-vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
-vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc
-vendor/lib/libqtikeymaster4.so
-vendor/lib64/libqtikeymaster4.so
+# Keymaster QTI - from lavender V12.5.3.0.QFGCNXM
+vendor/bin/hw/android.hardware.keymaster@4.0-service-qti|e77067e7dcb04c9a319789776bee3ac4d684e1b5
+vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc|c8999fb1bccbef81e6b362059e9a6ebd023de98f
+vendor/lib/libqtikeymaster4.so|1bf1be0b0679f12856be7d9331aaa03202c4dfdc
+vendor/lib64/libqtikeymaster4.so|7534cde33a024aa891185cdc8f93df46f5a08c8c
 
-# Sensors
-vendor/bin/sensors.qti
-vendor/etc/sensors/hals.conf|2be83209bb5319b4a3c75338c24852f89ddc1df7
-vendor/etc/sensors/sensor_def_qcomdev.conf
-vendor/lib/hw/activity_recognition.sdm660.so
-vendor/lib/libsensor_reg.so
-vendor/lib/libsensor1.so
-vendor/lib64/hw/activity_recognition.sdm660.so
-vendor/lib64/libsensor_reg.so
-vendor/lib64/libsensor1.so
-vendor/lib64/sensors.elliptic.so
+# Sensors - from lavender V12.5.3.0.QFGCNXM
+vendor/bin/sensors.qti|1613aa4572fbc6040e57c7ed0932529ea0247f49
+vendor/etc/sensors/hals.conf|bf3677cbfa5ce5735662e8c259cb027969f65c87
+vendor/etc/sensors/sensor_def_qcomdev.conf|2dde9725dd1be5cd864183e8a617c3455a7f6a17
+vendor/lib/hw/activity_recognition.sdm660.so|016875ad5a1363a8ec017b286e2fa5372e05e279
+vendor/lib/libsensor_reg.so|ac3a6b735084d308e6f2a07f514339c27c65b11f
+vendor/lib/libsensor1.so|daca84391e79453c601b135619f4db6eebd4f7cf
+vendor/lib64/hw/activity_recognition.sdm660.so|9550e75529ef4ac6205c27784eaf54219110023f
+vendor/lib64/libsensor_reg.so|a8753d3f0e9383d46334f0022166eece70854e5c
+vendor/lib64/libsensor1.so|596362883f49d2e911c8cc2d54f90b2b56d35b18
+vendor/lib64/sensors.elliptic.so|9a6f4e7e1556e110955330588ca02d1898367d5f
 
 # Sensors - from PL2_sprout-user 10 QKQ1.190828.002 00WW_4_150
 vendor/lib/sensors.ssc.so|bee13b2ad7f1ef0d2cf63708fa38ad76877ea287
 vendor/lib64/sensors.ssc.so|42577aa881baa287ec037c0e59972ad0e0358b08
 
-# Thermal
-vendor/etc/thermal-engine-camera.conf
-vendor/etc/thermal-engine.conf
-vendor/etc/thermal-engine-map.conf
-vendor/etc/thermal-engine-normal.conf
-vendor/bin/thermal-engine
--vendor/lib/libthermalclient.so
--vendor/lib64/libthermalclient.so
-vendor/lib64/libthermalioctl.so
-vendor/lib64/libthermalfeature.so
+# Thermal - from lavender V12.5.3.0.QFGCNXM
+vendor/etc/thermal-engine-camera.conf|db9829a655ca0c3013448e6a4aee3fcce9f90ca2
+vendor/etc/thermal-engine.conf|c6c9312b7c7b52926cf7d0fc9bff933d90967100
+vendor/etc/thermal-engine-map.conf|474264ed357e02b7bb8b757024275a4cb8ff2929
+vendor/etc/thermal-engine-normal.conf|c7622e7d466b86266eab95d04eff3150f6946980
+vendor/bin/thermal-engine|2660c01a488abef8f50ff6380996809102c8215f
+-vendor/lib/libthermalclient.so|c3aecc7610e8f5775a6f6af2ff7790bef74380a1
+-vendor/lib64/libthermalclient.so|84072e150722cc668320f07a75cb8695ce1a79b0
+vendor/lib64/libthermalioctl.so|2f0ee866e9059b1df9ca7b63815591354e7c77d8
+vendor/lib64/libthermalfeature.so|829b2fc0aa8c863d4b4b331e0a2c00663e01efe6
 
-# Widevine - from lavender V12.0.1.0.QFGMIXM
+# Widevine - from lavender V12.5.3.0.QFGCNXM
 vendor/lib/liboemcrypto.so|ad286cf38f8b00a5c9b0b0f424e4a5bd1f47f046
 vendor/lib64/liboemcrypto.so|e44fa8bf9bed1541342390bf316c34fe9f29cc4e
 
-# Wifi
-vendor/bin/cnss-daemon
+# Wifi - from lavender V12.5.3.0.QFGCNXM
+vendor/bin/cnss-daemon|a371213adc8fc7677d519c8d942761ffeee0f345
