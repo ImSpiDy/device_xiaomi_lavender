@@ -25,7 +25,7 @@ TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_DENSITY := 420
 
 # Kernel
-TARGET_KERNEL_CONFIG := lavender_defconfig
+TARGET_KERNEL_CONFIG := lavender-perf_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/lavender
 BOARD_KERNEL_SEPARATED_DTBO := true
 
