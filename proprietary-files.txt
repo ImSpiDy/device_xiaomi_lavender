@@ -20,7 +20,7 @@ vendor/firmware/tfa98xx.cnt|f8b5291feaebe7e3d18fda5d8960c313656b4a3a
 vendor/firmware/voice_amodel.bin|f0485f84718886ebcba6f2be0eb92f18240b5115
 
 # Camera - from lavender V10.3.6.0.PFGMIXM
-vendor/lib/hw/camera.sdm660.so|50e671432994ec9085810e5fa9c9c6619262bc19
+vendor/lib/hw/camera.sdm660.so|d1b39c748714fe4def100c4a719591f2ec5a05f2
 vendor/lib/libc++_shared.so|54a61595d6fee176af9aa65ff044746ed1446233
 vendor/lib/libcamera_scene.so|980ef8ec8a4b0e38cb9a6d7f84575e19fa00601d
 vendor/lib/libdepthmapwrapper.so|be287354afe23e2c005fa81c514c8785f37ca7a2
