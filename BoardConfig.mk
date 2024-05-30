@@ -26,8 +26,15 @@ TARGET_SCREEN_DENSITY := 420
 
 # Kernel
 BOARD_KERNEL_CMDLINE += androidboot.boot_devices=soc/c0c4000.sdhci
-TARGET_KERNEL_CONFIG := lavender_defconfig
 BOARD_KERNEL_SEPARATED_DTBO := true
+TARGET_KERNEL_VERSION ?= 4.19
+
+ifeq ($(TARGET_KERNEL_VERSION),4.19)
+TARGET_KERNEL_CONFIG := lavender_defconfig
+else ifeq ($(TARGET_KERNEL_VERSION),4.4)
+TARGET_KERNEL_CONFIG := lavender-perf_defconfig
+endif
+
 
 # Manifest
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
