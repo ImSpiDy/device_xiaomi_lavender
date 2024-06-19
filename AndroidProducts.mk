@@ -6,4 +6,5 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_lavender.mk \
-    $(LOCAL_DIR)/pixelage_lavender.mk
+    $(LOCAL_DIR)/pixelage_lavender.mk \
+    $(LOCAL_DIR)/voltage_lavender.mk
