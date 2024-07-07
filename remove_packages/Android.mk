@@ -63,7 +63,8 @@ LOCAL_OVERRIDES_PACKAGES := \
 	Symphonica \
 	Gallery2 \
 	Music \
-	PersonalSafety
+	PersonalSafety \
+        UdfpsAnimations
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_SRC_FILES := /dev/null
