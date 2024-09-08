@@ -33,3 +33,6 @@ TARGET_BOOT_ANIMATION_RES := 1080
 
 # Ship aperture camera by default
 PRODUCT_NO_CAMERA := false
+
+# Exclude QCOM powerhal manifest
+TARGET_PROVIDES_POWERHAL := true
