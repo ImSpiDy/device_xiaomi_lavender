@@ -8,6 +8,7 @@ LOCAL_OVERRIDES_PACKAGES := \
 	AmbientSensePrebuilt \
 	AppDirectedSMSService \
 	arcore \
+	arcore-1.42 \
 	CarrierSetup \
 	Chrome \
 	Chrome-Stub \
@@ -15,6 +16,7 @@ LOCAL_OVERRIDES_PACKAGES := \
 	ConnMetrics \
 	DCMO \
 	DevicePolicyPrebuilt \
+	DevicePolicyPrebuilt-v10052480 \
 	DMService \
 	Drive \
 	Via \
@@ -29,15 +31,20 @@ LOCAL_OVERRIDES_PACKAGES := \
 	PrebuiltGmail \
 	Recorder \
 	RecorderPrebuilt \
+	RecorderPrebuilt_630544637 \
 	Gallery \
 	Gallery2 \
 	StagWalls \
 	PulseMusic \
 	SafetyHubPrebuilt \
+	SafetyHubSuwPrebuilt \
 	SCONE \
 	ScribePrebuilt \
+	ScribePrebuilt_v7.0.633113815 \
 	Showcase \
 	SoundAmplifierPrebuilt \
+	SoundAmplifierPrebuilt_v4.7.638126989 \
+	SwitchAccessPrebuilt_1.15.0.629986523 \
 	SprintDM \
 	SprintHM \
 	Tycho \
@@ -64,7 +71,8 @@ LOCAL_OVERRIDES_PACKAGES := \
 	Gallery2 \
 	Music \
 	PersonalSafety \
-        UdfpsAnimations
+	OpenDelta \
+	UdfpsAnimations
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_SRC_FILES := /dev/null
