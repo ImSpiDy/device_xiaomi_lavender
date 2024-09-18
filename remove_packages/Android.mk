@@ -84,6 +84,8 @@ LOCAL_OVERRIDES_PACKAGES := \
 	Music \
 	PersonalSafety \
 	OpenDelta \
+	WifiResCommon_Sys \
+	WifiResCommonMainline_Sys \
 	UdfpsAnimations
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
