@@ -16,5 +16,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="voltage_maintainer">wHo_EM_i</string>
+    <string name="arrow_maintainer">wHo_EM_i</string>
 
 </resources>
