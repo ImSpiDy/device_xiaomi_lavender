@@ -1,8 +1,7 @@
 #!/bin/bash
 #
-# Copyright (C) 2016 The CyanogenMod Project
-# Copyright (C) 2017-2020 The LineageOS Project
-#
+# SPDX-FileCopyrightText: 2016 The CyanogenMod Project
+# SPDX-FileCopyrightText: 2017-2024 The LineageOS Project
 # SPDX-License-Identifier: Apache-2.0
 #
 
@@ -17,6 +16,7 @@ set -e
 export DEVICE=lavender
 export DEVICE_COMMON=sdm660-common
 export VENDOR=xiaomi
+export VENDOR_COMMON=${VENDOR}
 
 function blob_fixup() {
     case "${1}" in
@@ -26,4 +26,8 @@ function blob_fixup() {
     esac
 }
 
-"./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"
+function blob_fixup_dry() {
+    blob_fixup "$1" ""
+}
+
+"./../../${VENDOR_COMMON}/${DEVICE_COMMON}/extract-files.sh" "$@"
