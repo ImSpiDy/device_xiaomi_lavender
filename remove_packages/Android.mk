@@ -9,14 +9,17 @@ LOCAL_OVERRIDES_PACKAGES := \
 	AppDirectedSMSService \
 	arcore \
 	arcore-1.42 \
+	Browser2 \
 	CarrierSetup \
 	Chrome \
+	Chrome64 \
 	Chrome-Stub \
 	ConnMO \
 	ConnMetrics \
 	DCMO \
 	DevicePolicyPrebuilt \
 	DevicePolicyPrebuilt-v10052480 \
+	DevicePersonalizationPrebuiltPixel2020 \
 	DMService \
 	Drive \
 	Via \
@@ -29,6 +32,7 @@ LOCAL_OVERRIDES_PACKAGES := \
 	Gmail \
 	Gmail2 \
 	PrebuiltGmail \
+	Photos \
 	Recorder \
 	RecorderPrebuilt \
 	RecorderPrebuilt_630544637 \
@@ -47,6 +51,7 @@ LOCAL_OVERRIDES_PACKAGES := \
 	SwitchAccessPrebuilt_1.15.0.629986523 \
 	SprintDM \
 	SprintHM \
+	SpeechServicesByGoogle \
 	Tycho \
 	FM2 \
 	WellbeingPrebuilt \
