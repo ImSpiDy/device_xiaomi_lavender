@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_lavender.mk
+    $(LOCAL_DIR)/halcyon_lavender.mk
+
+COMMON_LUNCH_CHOICES := \
+    halcyon_lavender-user \
+    halcyon_lavender-userdebug \
+    halcyon_lavender-eng
