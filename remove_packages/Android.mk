@@ -29,6 +29,9 @@ LOCAL_OVERRIDES_PACKAGES := \
 	Maps \
 	MyVerizonServices \
 	PixelLiveWallpaperPrebuilt \
+	PixelSetupWizardOverlay \
+	PixelSetupWizardOverlay2021 \
+	PixelSetupWizardStringsOverlay \
 	Gmail \
 	Gmail2 \
 	PrebuiltGmail \
@@ -66,8 +69,10 @@ LOCAL_OVERRIDES_PACKAGES := \
 	VZWAPNLib \
 	VzwOmaTrigger \
 	WallpapersBReel2020 \
+	Wellbeing \
 	YouTube \
 	YouTubeMusicPrebuilt \
+	SetupWizardPixelPrebuilt \
 	TurboPrebuilt \
 	TagGoogle \
 	talkback \
