@@ -16,6 +16,9 @@ dalvik.vm.heaptargetutilization=0.75
 dalvik.vm.heapminfree=512k
 dalvik.vm.heapmaxfree=8m
 
+# Fingerprint
+persist.vendor.fingerprint.type=rear
+
 # SurfaceFlinger
 ro.surface_flinger.has_wide_color_display=true
 ro.surface_flinger.use_color_management=true
