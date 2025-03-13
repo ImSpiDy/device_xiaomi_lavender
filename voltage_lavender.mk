@@ -8,14 +8,8 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Arrow stuff
-$(call inherit-product, vendor/arrow/config/common.mk)
-
-# ArrowOS Additional Flags
-DEVICE_MAINTAINER := SpiDyNub
-DEVICE_MAINTAINER_LINK := https://t.me/SpiDyNub
-TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_SUPPORTS_QUICK_TAP := false
+# Inherit some common LineageOS stuff
+$(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -29,8 +23,9 @@ TARGET_SUPPORTS_QUICK_TAP := false
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := lavender
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := arrow_lavender
+PRODUCT_NAME := voltage_lavender
 PRODUCT_MODEL := Redmi Note 7
+VOLTAGE_BUILD_TYPE := Community
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
