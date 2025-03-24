@@ -56,8 +56,7 @@ PRODUCT_PACKAGES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH) \
-    hardware/lineage/interfaces/power-libperfmgr
+    $(LOCAL_PATH)
 
 # Vibrator
 PRODUCT_PACKAGES += \
