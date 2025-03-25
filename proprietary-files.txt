@@ -38,7 +38,6 @@ vendor/lib/libjpegdmahw.so|19621cb3ffec3afbb43e2b178d1d0c2b283b725f
 vendor/lib/libjpegehw.so|d269a53cd26f89904d403893bb4a91984cef45fd
 vendor/lib/libmegface.so|5c57bccfd37a84f3990e6982c193b018a20d5d39
 vendor/lib/libmibokeh_660.so|46afb40acdafe11cffba2ab77087d99cf864bf35
-vendor/lib/libmm-qcamera.so|f953ef7ce5a3b30f0fa69d6ffde1149272d58793
 vendor/lib/libmmjpeg.so|152b14e209e381deb1f58a4c734678bd11e6069a
 vendor/lib/libmmqjpeg_codec.so|f05531bc53f16d8bfe5e7cf3fa00fd5b8b40fde2
 vendor/lib/libmmqjpegdma.so|98e8a82e71c3bd630ff2ab231f19571967231f59
@@ -943,8 +942,6 @@ vendor/lib/libmmcamera_sw2d_lib.so|616d0a3bd922f7b2080186c6128c862bd49bbfd0
 vendor/lib/libmmcamera_thread_services.so|dd0c0846645cce8d7a6b49280a27255f24353104
 vendor/lib/libmmcamera_tintless_algo.so|87c1a8a6d6386cd2234494fc4aecc82642462e51
 vendor/lib/libmmcamera_tintless_bg_pca_algo.so|8d0742522e0af649ee05fb85fa1a204ac68af48b
-vendor/lib/libmmcamera_tuning.so|28364a5125194034584cb44e053272a9d70fa5b5
-vendor/lib/libmmcamera_tuning_lookup.so|e00c7abb7b72ceff77fbd73d7b38f3fa8fdb31ca
 
 # Display
 vendor/etc/qdcm_calib_data_boe_td4320_fhdplus_video_mode_dsi_panel.xml
