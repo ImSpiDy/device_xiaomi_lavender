@@ -8,7 +8,6 @@
 function vendor_imports() {
     cat <<EOF >>"$1"
 		"device/xiaomi/lavender",
-                "vendor/qcom/opensource/display",
                 "vendor/xiaomi/lavender",
 EOF
 }
