@@ -46,8 +46,13 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # USB
+ifeq ($(TARGET_KERNEL_VERSION),4.19)
+PRODUCT_PACKAGES += \
+    android.hardware.usb@1.0-service.basic
+else ifeq ($(TARGET_KERNEL_VERSION),4.4)
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service
+endif
 
 # Vibrator
 PRODUCT_PACKAGES += \
