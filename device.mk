@@ -45,8 +45,13 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # USB
+ifeq ($(TARGET_KERNEL_VERSION),4.19)
+PRODUCT_PACKAGES += \
+    android.hardware.usb@1.0-service.basic
+else ifeq ($(TARGET_KERNEL_VERSION),4.4)
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service
+endif
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/lavender/lavender-vendor.mk)
