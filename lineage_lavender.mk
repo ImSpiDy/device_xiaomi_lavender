@@ -31,3 +31,6 @@ BUILD_FINGERPRINT := xiaomi/lavender/lavender:10/QKQ1.190910.002/V12.5.3.0.QFGCN
 
 # Boot animation resolution.
 TARGET_BOOT_ANIMATION_RES := 1080
+
+# Ship aperture camera by default
+PRODUCT_NO_CAMERA := false
