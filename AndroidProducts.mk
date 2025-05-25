@@ -5,9 +5,13 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/voltage_lavender.mk
+    $(LOCAL_DIR)/voltage_lavender.mk \
+    $(LOCAL_DIR)/banana_lavender.mk
 
 COMMON_LUNCH_CHOICES := \
     voltage_lavender-user \
     voltage_lavender-userdebug \
-    voltage_lavender-eng
+    voltage_lavender-eng \
+    banana_lavender-user \
+    banana_lavender-userdebug \
+    banana_lavender-eng
