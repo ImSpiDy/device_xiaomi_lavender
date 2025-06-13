@@ -62,8 +62,6 @@ LOCAL_OVERRIDES_PACKAGES := \
 	CalendarGoogle \
 	CalendarGooglePrebuilt \
 	USCCDM \
-	AndroidAutoStub \
-	AndroidAutoStubPrebuilt \
 	Videos \
 	Video \
 	VZWAPNLib \
