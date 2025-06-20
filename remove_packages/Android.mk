@@ -17,9 +17,12 @@ LOCAL_OVERRIDES_PACKAGES := \
 	ConnMO \
 	ConnMetrics \
 	DCMO \
+        DeviceIntelligenceNetworkPrebuilt-astrea_20240329.00_RC02 \
 	DevicePolicyPrebuilt \
 	DevicePolicyPrebuilt-v10052480 \
+	DevicePolicyPrebuilt-v10306480 \
 	DevicePersonalizationPrebuiltPixel2020 \
+        DevicePersonalizationPrebuiltPixel2024-bfinal_aiai_20250217.00_RC08 \
 	DMService \
 	Drive \
 	Via \
@@ -48,6 +51,7 @@ LOCAL_OVERRIDES_PACKAGES := \
 	SCONE \
 	ScribePrebuilt \
 	ScribePrebuilt_v7.0.633113815 \
+	ScribePrebuilt_v8.2.717788270 \
 	Showcase \
 	SoundAmplifierPrebuilt \
 	SoundAmplifierPrebuilt_v4.7.638126989 \
@@ -61,6 +65,7 @@ LOCAL_OVERRIDES_PACKAGES := \
 	Calendar \
 	CalendarGoogle \
 	CalendarGooglePrebuilt \
+        CalculatorGooglePrebuilt_85005407 \
 	USCCDM \
 	Videos \
 	Video \
