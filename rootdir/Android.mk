@@ -16,7 +16,11 @@ LOCAL_MODULE       := fstab.qcom_ramdisk
 LOCAL_MODULE_STEM  := fstab.qcom
 LOCAL_MODULE_TAGS  := optional
 LOCAL_MODULE_CLASS := ETC
+ifeq ($(LAVENDER_USES_FBE_ENCRYPTION), true)
+LOCAL_SRC_FILES    := etc/fstab_fbe.qcom
+else
 LOCAL_SRC_FILES    := etc/fstab.qcom
+endif
 LOCAL_MODULE_PATH  := $(TARGET_RAMDISK_OUT)
 include $(BUILD_PREBUILT)
 
