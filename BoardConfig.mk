@@ -24,6 +24,9 @@ TARGET_SCREEN_WIDTH := 1080
 # Display
 TARGET_SCREEN_DENSITY := 420
 
+# Encryption
+LAVENDER_USES_FBE_ENCRYPTION ?= false
+
 # Kernel
 BOARD_KERNEL_CMDLINE += androidboot.boot_devices=soc/c0c4000.sdhci
 TARGET_KERNEL_CONFIG := lavender_defconfig
@@ -94,7 +97,11 @@ TARGET_USERIMAGES_USE_F2FS := true
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Recovery
+ifeq ($(LAVENDER_USES_FBE_ENCRYPTION), true)
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab_fbe.qcom
+else
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
+endif
 
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
