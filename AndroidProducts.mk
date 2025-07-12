@@ -9,4 +9,5 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/custom_lavender.mk \
     $(LOCAL_DIR)/infinity_lavender.mk \
     $(LOCAL_DIR)/lineage_lavender.mk \
-    $(LOCAL_DIR)/pixelage_lavender.mk
+    $(LOCAL_DIR)/pixelage_lavender.mk \
+    $(LOCAL_DIR)/yaap_lavender.mk
