@@ -84,7 +84,6 @@ LOCAL_OVERRIDES_PACKAGES := \
 	Gallery2 \
 	Music \
 	PersonalSafety \
-	OpenDelta \
 	UdfpsAnimations
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
