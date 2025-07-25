@@ -1022,16 +1022,5 @@ vendor/lib64/sensors.elliptic.so
 vendor/lib/sensors.ssc.so|bee13b2ad7f1ef0d2cf63708fa38ad76877ea287
 vendor/lib64/sensors.ssc.so|42577aa881baa287ec037c0e59972ad0e0358b08
 
-# Thermal
-vendor/bin/thermal-engine
-vendor/etc/thermal-engine-camera.conf
-vendor/etc/thermal-engine-map.conf
-vendor/etc/thermal-engine-normal.conf
-vendor/etc/thermal-engine.conf
--vendor/lib/libthermalclient.so
--vendor/lib64/libthermalclient.so
-vendor/lib64/libthermalfeature.so
-vendor/lib64/libthermalioctl.so
-
 # Wifi
 vendor/bin/cnss-daemon
