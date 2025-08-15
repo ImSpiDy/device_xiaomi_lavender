@@ -5,7 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aospa_lavender.mk
+    $(LOCAL_DIR)/aospa_lavender.mk \
+    $(LOCAL_DIR)/lavender.mk
 
 COMMON_LUNCH_CHOICES := \
     aospa_lavender-user \
