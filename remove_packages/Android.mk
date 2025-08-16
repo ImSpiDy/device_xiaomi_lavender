@@ -11,18 +11,15 @@ LOCAL_OVERRIDES_PACKAGES := \
 	arcore-1.42 \
 	Browser2 \
 	CarrierSetup \
-	Chrome \
-	Chrome64 \
-	Chrome-Stub \
 	ConnMO \
 	ConnMetrics \
 	DCMO \
-        DeviceIntelligenceNetworkPrebuilt-astrea_20240329.00_RC02 \
+	DeviceIntelligenceNetworkPrebuilt-astrea_20240329.00_RC02 \
 	DevicePolicyPrebuilt \
 	DevicePolicyPrebuilt-v10052480 \
 	DevicePolicyPrebuilt-v10306480 \
 	DevicePersonalizationPrebuiltPixel2020 \
-        DevicePersonalizationPrebuiltPixel2024-bfinal_aiai_20250217.00_RC08 \
+	DevicePersonalizationPrebuiltPixel2024-bfinal_aiai_20250217.00_RC08 \
 	DMService \
 	Drive \
 	Via \
@@ -42,6 +39,7 @@ LOCAL_OVERRIDES_PACKAGES := \
 	Recorder \
 	RecorderPrebuilt \
 	RecorderPrebuilt_630544637 \
+	RecorderPrebuilt_715214189 \
 	Gallery \
 	Gallery2 \
 	StagWalls \
@@ -56,6 +54,7 @@ LOCAL_OVERRIDES_PACKAGES := \
 	SoundAmplifierPrebuilt \
 	SoundAmplifierPrebuilt_v4.7.638126989 \
 	SwitchAccessPrebuilt_1.15.0.629986523 \
+	SwitchAccessPrebuilt_1.16.0.726766860 \
 	SprintDM \
 	SprintHM \
 	SpeechServicesByGoogle \
@@ -65,7 +64,7 @@ LOCAL_OVERRIDES_PACKAGES := \
 	Calendar \
 	CalendarGoogle \
 	CalendarGooglePrebuilt \
-        CalculatorGooglePrebuilt_85005407 \
+	CalculatorGooglePrebuilt_85005407 \
 	USCCDM \
 	Videos \
 	Video \
