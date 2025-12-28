@@ -18,16 +18,4 @@ export DEVICE_COMMON=sdm660-common
 export VENDOR=xiaomi
 export VENDOR_COMMON=${VENDOR}
 
-function blob_fixup() {
-    case "${1}" in
-        vendor/lib/lib_lowlight.so)
-            "${PATCHELF}" --replace-needed "libstdc++.so" "libstdc++_vendor.so" "${2}"
-            ;;
-    esac
-}
-
-function blob_fixup_dry() {
-    blob_fixup "$1" ""
-}
-
 "./../../${VENDOR_COMMON}/${DEVICE_COMMON}/extract-files.sh" "$@"
