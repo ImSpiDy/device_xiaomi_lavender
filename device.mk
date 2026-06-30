@@ -49,10 +49,6 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     init.device.rc
 
-# Remove unwanted packages
-PRODUCT_PACKAGES += \
-    RemovePackages
-
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
